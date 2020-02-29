@@ -3,7 +3,7 @@ def find_element_index(array, value_to_find)
   array.index(value_to_find)
 end
 
-# OR
+#OR
 
 def find_element_index(array, value_to_find)
   # Add your solution here
@@ -19,20 +19,22 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  count = 0
-  while count < array.length do
-    
+  max = array[0]
+  array.length.times do |index|
+    if array[index] > max
+      max = array[index]
+    end
   end
-
-  while array[counter] do
-    puts array[counter]
-    counter += 1
-  end
+  return max
 end
 
 def find_min_value(array)
-  # Add your solution here
-
+# Add your solution here
+min = array[0]
+  array.length.times do |index|
+    if array[index] < min
+     min = array[index]
+    end
+  end
+  return min
 end
-
-# OR
