@@ -28,7 +28,7 @@ def find_max_value(array)
       max = array[index]
     end
   end
-  return max
+  max
 end
 
 def find_max_value(array)
