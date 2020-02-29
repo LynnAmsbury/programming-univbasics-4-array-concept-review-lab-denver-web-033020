@@ -39,5 +39,5 @@ min = array[0]
      min = array[index]
     end
   end
-  return min
+  min
 end
