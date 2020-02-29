@@ -20,11 +20,6 @@ def find_element_index(array, value_to_find)
   end
 end
 
-def find_element_index(array, value_to_find)
-  # Add your solution here
-  array.find_index(value_to_find)
-end
-
 def find_max_value(array)
   # Add your solution here
   max = array[0]
